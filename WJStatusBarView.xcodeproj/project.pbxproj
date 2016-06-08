@@ -1,0 +1,327 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE0F0F6D1D07BCF50003A9DA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE0F0F6C1D07BCF50003A9DA /* main.m */; };
+		AE0F0F701D07BCF50003A9DA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AE0F0F6F1D07BCF50003A9DA /* AppDelegate.m */; };
+		AE0F0F731D07BCF50003A9DA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE0F0F721D07BCF50003A9DA /* ViewController.m */; };
+		AE0F0F761D07BCF50003A9DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE0F0F741D07BCF50003A9DA /* Main.storyboard */; };
+		AE0F0F781D07BCF50003A9DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE0F0F771D07BCF50003A9DA /* Assets.xcassets */; };
+		AE0F0F7B1D07BCF50003A9DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE0F0F791D07BCF50003A9DA /* LaunchScreen.storyboard */; };
+		AE0F0F871D07BD420003A9DA /* WJStatusBarManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AE0F0F841D07BD420003A9DA /* WJStatusBarManager.m */; };
+		AE0F0F881D07BD420003A9DA /* WJStatusBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = AE0F0F861D07BD420003A9DA /* WJStatusBarView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AE0F0F681D07BCF40003A9DA /* WJStatusBarView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WJStatusBarView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE0F0F6C1D07BCF50003A9DA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AE0F0F6E1D07BCF50003A9DA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AE0F0F6F1D07BCF50003A9DA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AE0F0F711D07BCF50003A9DA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AE0F0F721D07BCF50003A9DA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AE0F0F751D07BCF50003A9DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AE0F0F771D07BCF50003A9DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AE0F0F7A1D07BCF50003A9DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AE0F0F7C1D07BCF50003A9DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE0F0F831D07BD420003A9DA /* WJStatusBarManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJStatusBarManager.h; sourceTree = "<group>"; };
+		AE0F0F841D07BD420003A9DA /* WJStatusBarManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJStatusBarManager.m; sourceTree = "<group>"; };
+		AE0F0F851D07BD420003A9DA /* WJStatusBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJStatusBarView.h; sourceTree = "<group>"; };
+		AE0F0F861D07BD420003A9DA /* WJStatusBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJStatusBarView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE0F0F651D07BCF40003A9DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE0F0F5F1D07BCF40003A9DA = {
+			isa = PBXGroup;
+			children = (
+				AE0F0F6A1D07BCF40003A9DA /* WJStatusBarView */,
+				AE0F0F691D07BCF40003A9DA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AE0F0F691D07BCF40003A9DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE0F0F681D07BCF40003A9DA /* WJStatusBarView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE0F0F6A1D07BCF40003A9DA /* WJStatusBarView */ = {
+			isa = PBXGroup;
+			children = (
+				AE0F0F821D07BD420003A9DA /* WJStatusBarView */,
+				AE0F0F6E1D07BCF50003A9DA /* AppDelegate.h */,
+				AE0F0F6F1D07BCF50003A9DA /* AppDelegate.m */,
+				AE0F0F711D07BCF50003A9DA /* ViewController.h */,
+				AE0F0F721D07BCF50003A9DA /* ViewController.m */,
+				AE0F0F741D07BCF50003A9DA /* Main.storyboard */,
+				AE0F0F771D07BCF50003A9DA /* Assets.xcassets */,
+				AE0F0F791D07BCF50003A9DA /* LaunchScreen.storyboard */,
+				AE0F0F7C1D07BCF50003A9DA /* Info.plist */,
+				AE0F0F6B1D07BCF50003A9DA /* Supporting Files */,
+			);
+			path = WJStatusBarView;
+			sourceTree = "<group>";
+		};
+		AE0F0F6B1D07BCF50003A9DA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AE0F0F6C1D07BCF50003A9DA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AE0F0F821D07BD420003A9DA /* WJStatusBarView */ = {
+			isa = PBXGroup;
+			children = (
+				AE0F0F831D07BD420003A9DA /* WJStatusBarManager.h */,
+				AE0F0F841D07BD420003A9DA /* WJStatusBarManager.m */,
+				AE0F0F851D07BD420003A9DA /* WJStatusBarView.h */,
+				AE0F0F861D07BD420003A9DA /* WJStatusBarView.m */,
+			);
+			path = WJStatusBarView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE0F0F671D07BCF40003A9DA /* WJStatusBarView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE0F0F7F1D07BCF50003A9DA /* Build configuration list for PBXNativeTarget "WJStatusBarView" */;
+			buildPhases = (
+				AE0F0F641D07BCF40003A9DA /* Sources */,
+				AE0F0F651D07BCF40003A9DA /* Frameworks */,
+				AE0F0F661D07BCF40003A9DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WJStatusBarView;
+			productName = WJStatusBarView;
+			productReference = AE0F0F681D07BCF40003A9DA /* WJStatusBarView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE0F0F601D07BCF40003A9DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "wesk痕";
+				TargetAttributes = {
+					AE0F0F671D07BCF40003A9DA = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = AE0F0F631D07BCF40003A9DA /* Build configuration list for PBXProject "WJStatusBarView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AE0F0F5F1D07BCF40003A9DA;
+			productRefGroup = AE0F0F691D07BCF40003A9DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE0F0F671D07BCF40003A9DA /* WJStatusBarView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE0F0F661D07BCF40003A9DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE0F0F7B1D07BCF50003A9DA /* LaunchScreen.storyboard in Resources */,
+				AE0F0F781D07BCF50003A9DA /* Assets.xcassets in Resources */,
+				AE0F0F761D07BCF50003A9DA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE0F0F641D07BCF40003A9DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE0F0F881D07BD420003A9DA /* WJStatusBarView.m in Sources */,
+				AE0F0F731D07BCF50003A9DA /* ViewController.m in Sources */,
+				AE0F0F701D07BCF50003A9DA /* AppDelegate.m in Sources */,
+				AE0F0F6D1D07BCF50003A9DA /* main.m in Sources */,
+				AE0F0F871D07BD420003A9DA /* WJStatusBarManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AE0F0F741D07BCF50003A9DA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE0F0F751D07BCF50003A9DA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AE0F0F791D07BCF50003A9DA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE0F0F7A1D07BCF50003A9DA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AE0F0F7D1D07BCF50003A9DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AE0F0F7E1D07BCF50003A9DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE0F0F801D07BCF50003A9DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WJStatusBarView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wesk.WJStatusBarView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AE0F0F811D07BCF50003A9DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WJStatusBarView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wesk.WJStatusBarView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE0F0F631D07BCF40003A9DA /* Build configuration list for PBXProject "WJStatusBarView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE0F0F7D1D07BCF50003A9DA /* Debug */,
+				AE0F0F7E1D07BCF50003A9DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE0F0F7F1D07BCF50003A9DA /* Build configuration list for PBXNativeTarget "WJStatusBarView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE0F0F801D07BCF50003A9DA /* Debug */,
+				AE0F0F811D07BCF50003A9DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE0F0F601D07BCF40003A9DA /* Project object */;
+}
